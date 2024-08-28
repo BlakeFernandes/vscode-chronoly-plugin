@@ -1,11 +1,9 @@
 name: Release new version
 
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        required: true
-        description: 'Version to bump `package.json` to (format: x.y.z)'
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
 
 jobs:
   build:
