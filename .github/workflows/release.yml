@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: vscode-chronoly-extension
-          path: "./chronoly-${{ github.event.inputs.version }}.vsix"
+          path: artifacts
 
       - name: Create release
         id: create-release
