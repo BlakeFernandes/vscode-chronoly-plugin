@@ -14,3 +14,5 @@ Chrono.ly will make your work-life easier by automating the admin work. Track yo
   <li>Follow the link to open the Dashboard</li>
   <li>Welcome to Chrono.ly</li>
 </ol>
+
+test
